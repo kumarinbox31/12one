@@ -5,6 +5,8 @@ import Home from './Components/Home';
 import About from './Components/About';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
+import Services from './Components/Services';
+import Contact from './Components/Contact';
 import {
   BrowserRouter as Router,
   Routes,
@@ -19,7 +21,9 @@ const App = () => {
     <Header />
     <Routes>
        <Route exact path="/" element={<Home/>} />
-       <Route path="/about" element={<About />}/>       
+       <Route path="/about" element={<About />}/>
+       <Route path="/services" element={<Services />}/>
+       <Route path="/contact" element={<Contact />}/>       
    </Routes>
    <Footer />
 </Router>  

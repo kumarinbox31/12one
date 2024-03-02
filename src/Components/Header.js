@@ -45,45 +45,13 @@ export default function Header() {
                 </li>
                 <li className="nav-item ">
                   <Link className="nav-link" to='/about'>About</Link>
-                  {/* <Route className="nav-link" path="/about">About</Route> */}
                 </li>
-                
-                <li className="nav-item dropdown @@about">
-                  <a className="nav-link dropdown-toggle" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About <i className="fas fa-chevron-down small"></i></a>
-                  <ul className="dropdown-menu" aria-labelledby="dropdown03">
-                    <li><a className="dropdown-item @@company" href="about.html">Our company</a></li>
-                    <li><a className="dropdown-item @@pricing" href="pricing.html">Pricing</a></li>
-                    
-                    <li className="dropdown dropdown-submenu dropright">
-                      <a className="dropdown-item dropdown-toggle" href="#!" id="dropdown0301" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-            
-                      <ul className="dropdown-menu" aria-labelledby="dropdown0301">
-                        <li><a className="dropdown-item" href="/">Submenu 01</a></li>
-                        <li><a className="dropdown-item" href="/">Submenu 02</a></li>
-                      </ul>
-                    </li>
-                  </ul>
+                <li className="nav-item ">
+                  <Link className="nav-link" to='/services'>Services</Link>
                 </li>
-                <li className="nav-item @@service"><a className="nav-link" href="service.html">Services</a></li>
-                <li className="nav-item @@project"><a className="nav-link" href="project.html">Portfolio</a></li>
-                <li className="nav-item dropdown @@blog">
-                  <a className="nav-link dropdown-toggle" href="#" id="dropdown05" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog <i className="fas fa-chevron-down small"></i></a>
-                  <ul className="dropdown-menu" aria-labelledby="dropdown05">
-                    <li><a className="dropdown-item @@blogGrid" href="blog-grid.html">Blog Grid</a></li>
-                    <li><a className="dropdown-item @@blogSidebar" href="blog-sidebar.html">Blog with Sidebar</a></li>
-                    <li><a className="dropdown-item @@blogSingle" href="blog-single.html">Blog Single</a></li>
-      
-                    <li className="dropdown dropdown-submenu dropleft">
-                      <a className="dropdown-item dropdown-toggle" href="#!" id="dropdown0501" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Sub Menu</a>
-            
-                      <ul className="dropdown-menu" aria-labelledby="dropdown0501">
-                        <li><a className="dropdown-item" href="/">Submenu 01</a></li>
-                        <li><a className="dropdown-item" href="/">Submenu 02</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </li>
-                <li className="nav-item @@contact"><a className="nav-link" href="contact.html">Contact</a></li>
+                <li className="nav-item ">
+                  <Link className="nav-link" to='/contact'>Contact</Link>
+                </li> 
               </ul>
       
               <div className="my-2 my-md-0 ml-lg-4 text-center">
