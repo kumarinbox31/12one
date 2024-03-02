@@ -30,7 +30,7 @@ export default function Header() {
         <div className="col-lg-12">
           <nav className="navbar navbar-expand-lg px-0 py-4">
             <a className="navbar-brand" href="/">
-              Mega<span>kit.</span>
+              12<span>one.</span>
             </a>
       
             <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09"
