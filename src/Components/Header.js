@@ -9,7 +9,7 @@ export default function Header() {
       <div className="row justify-content-between align-items-center">
         <div className="col-lg-2 col-md-4">
           <div className="header-top-socials text-center text-lg-left text-md-left">
-            <a href="https://www.facebook.com/themefisher" aria-label="facebook"><i className="fab fa-facebook-f"></i></a>
+            <a href="https://www.facebook.com/One2Oneresearchsolutions" aria-label="facebook"><i className="fab fa-facebook-f"></i></a>
             <a href="https://twitter.com/themefisher" aria-label="twitter"><i className="fab fa-twitter"></i></a>
             <a href="https://github.com/themefisher/" aria-label="github"><i className="fab fa-github"></i></a>
           </div>
@@ -29,9 +29,12 @@ export default function Header() {
       <div className="row">
         <div className="col-lg-12">
           <nav className="navbar navbar-expand-lg px-0 py-4">
-            <a className="navbar-brand" href="/">
-              12<span>one.</span>
-            </a>
+            <Link className="navbar-brand" to="/">
+              <img src="img/logo.png" width="50" height="50" />
+              <p>ONE2ONE RESEARCH SOLUTIONS<br/>
+              <small>GATHER ANALYZE GENERATE</small>
+              </p>
+            </Link>
       
             <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample09"
               aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
