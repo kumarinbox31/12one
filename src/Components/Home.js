@@ -9,8 +9,10 @@ export default function Home() {
 		<div className="row">
 			<div className="col-lg-9 col-md-10">
 				<div className="block">
-					<span className="d-block mb-3 text-white text-capitalize">Prepare for new future</span>
-					<h1 className="animated fadeInUp mb-5">Our work is <br/>presentation of our <br/>capabilities.</h1>
+					<span className="d-block mb-3 text-white text-capitalize">Get ready to embrace the future with open arms. </span>
+					<h2 className="animated fadeInUp mb-5 text-white">
+					Our work is <br/>a reflection of our <br/>capabilities - a testament to our <br/>commitment to excellence.
+					</h2>
 					<a href="#"  className="btn btn-main animated fadeInUp btn-round-full" aria-label="Get started">Get started<i className="btn-icon fa fa-angle-right ml-2"></i></a>
 				</div>
 			</div>
@@ -24,8 +26,8 @@ export default function Home() {
 		<div className="row ">
 			<div className="col-lg-8">
 				<div className="section-title">
-					<span className="h6 text-color ">We are creative & expert people</span>
-					<h2 className="mt-3 content-title">We work with business & provide solution to client with their business problem
+					<span className="h6 text-color ">Our team of skilled and imaginative professionals is dedicated to helping businesses overcome their challenges. </span>
+					<h2 className="mt-3 content-title">With our expertise, we provide tailored solutions that meet the unique needs of each of our clients.
 					</h2>
 				</div>
 			</div>
@@ -34,22 +36,24 @@ export default function Home() {
 			<div className="col-lg-4 col-md-6 col-12">
 				<div className="intro-item mb-5 mb-lg-0">
 					<i className="ti-desktop color-one"></i>
-					<h4 className="mt-4 mb-3">Modern & Responsive design</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+					<h4 className="mt-4 mb-3">Primary Research</h4>
+					<p>We provide customized qualitative and quantitative primary market research services to gain insights into the expectations and values of your customers. Our experienced team caters to various sectors, including non-profit organizations, healthcare corporations, B2B clients, and consumer sectors.
+X - Primary market research services are a must-have to gain in-depth insights into the expectations and values of your current and prospective clients and members. Our team of highly skilled researchers is dedicated to designing both qualitative and quantitative studies that cater to the unique needs of your business. With years of experience working with diverse clients across nonprofit organizations, healthcare corporations, B2B clients, and consumer sectors, we are confident that we can provide you with the best market research services available.
+</p>
 				</div>
 			</div>
 			<div className="col-lg-4 col-md-6">
 				<div className="intro-item mb-5 mb-lg-0">
 					<i className="ti-medall color-one"></i>
-					<h4 className="mt-4 mb-3">Awarded licensed company</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+					<h4 className="mt-4 mb-3">Online Sampling</h4>
+					<p>Selecting the ideal sampling method is paramount for successful online research. Our guide expertly covers sampling fundamentals, identifies common sources of bias, compares various methodologies, and provides valuable insights for crafting your own sampling strategy with confidence.</p>
 				</div>
 			</div>
 			<div className="col-lg-4 col-md-12">
 				<div className="intro-item">
 					<i className="ti-layers-alt color-one"></i>
-					<h4 className="mt-4 mb-3">Build your website Professionally</h4>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit, ducimus.</p>
+					<h4 className="mt-4 mb-3">Support Services</h4>
+					<p>Our capabilities extend far beyond merely collecting data. We have honed our expertise in specialized services such as survey programming and hosting, data processing, customized data delivery, charting, and data visualization. Our commitment to providing a complete solution to our clients has made us a one-stop-shop for all their needs.</p>
 				</div>
 			</div>
 		</div>
@@ -66,11 +70,11 @@ export default function Home() {
 			<div className="col-lg-6 offset-lg-6 offset-md-0">
 				<div className="about-item ">
 					<span className="h6 text-color">What we are</span>
-					<h2 className="mt-3 mb-4 position-relative content-title">We are dynamic team of creative people</h2>
+					{/* <h2 className="mt-3 mb-4 position-relative content-title">We are dynamic team of creative people</h2> */}
 					<div className="about-content">
-						<h4 className="mb-3 position-relative">We are Perfect Solution</h4>
-						<p className="mb-5">We provide consulting services in the area of IFRS and management reporting, helping
-							companies to reach their highest level. We optimize business processes, making them easier.</p>
+						{/* <h4 className="mb-3 position-relative">We are Perfect Solution</h4> */}
+						<p className="mb-5">"Our company provides customized data that fits your business needs. Our team of young and talented professionals founded the company in 2017. We specialize in setting up and maintaining panels for big research industries in the market. Additionally, we offer services such as questionnaire setup, data processing, and report building for a variety of studies. Sit back and relax while we take care of everything.
+						</p>
 
 						<a href="#" className="btn btn-main btn-round-full">Get started</a>
 					</div>
@@ -87,26 +91,26 @@ export default function Home() {
 		<div className="row">
 			<div className="col-lg-3 col-md-6 col-sm-6">
 				<div className="counter-item text-center mb-5 mb-lg-0">
-					<h3 className="mb-0"><span className="counter-stat font-weight-bold">1730</span> +</h3>
-					<p className="text-muted">Project Done</p>
+					<h3 className="mb-0"><span className="counter-stat font-weight-bold">15</span> +</h3>
+					<p className="text-muted">Clients </p>
 				</div>
 			</div>
 			<div className="col-lg-3 col-md-6 col-sm-6">
 				<div className="counter-item text-center mb-5 mb-lg-0">
-					<h3 className="mb-0"><span className="counter-stat font-weight-bold">125 </span>M </h3>
-					<p className="text-muted">User Worldwide</p>
+					<h3 className="mb-0"><span className="counter-stat font-weight-bold">1500 </span>+ </h3>
+					<p className="text-muted">Projects Delivered</p>
 				</div>
 			</div>
 			<div className="col-lg-3 col-md-6 col-sm-6">
 				<div className="counter-item text-center mb-5 mb-lg-0">
-					<h3 className="mb-0"><span className="counter-stat font-weight-bold">39</span></h3>
-					<p className="text-muted">Availble Country</p>
+					<h3 className="mb-0"><span className="counter-stat font-weight-bold">200</span>+</h3>
+					<p className="text-muted">Survey Conducted</p>
 				</div>
 			</div>
 			<div className="col-lg-3 col-md-6 col-sm-6">
 				<div className="counter-item text-center">
-					<h3 className="mb-0"><span className="counter-stat font-weight-bold">14</span></h3>
-					<p className="text-muted">Award Winner </p>
+					<h3 className="mb-0"><span className="counter-stat font-weight-bold">35</span>+</h3>
+					<p className="text-muted">Countries Covered </p>
 				</div>
 			</div>
 		</div>
@@ -120,7 +124,7 @@ export default function Home() {
 			<div className="col-lg-7 text-center">
 				<div className="section-title">
 					<span className="h6 text-color">Our Services</span>
-					<h2 className="mt-3 content-title ">We provide a wide range of creative services </h2>
+					<h2 className="mt-3 content-title ">We offer various services that can be of help to you.</h2>
 				</div>
 			</div>
 		</div>
@@ -129,48 +133,48 @@ export default function Home() {
 			<div className="col-lg-4 col-md-6 col-sm-6">
 				<div className="service-item mb-5">
 					<i className="ti-desktop"></i>
-					<h4 className="mb-3">Web development.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<h4 className="mb-3">Quantitative Research</h4>
+					<p>Quantitative market research is a powerful tool that allows you to accurately determine and predict the attitudes, opinions, and behavior of a group. By utilizing scientific sampling, you can gain valuable insight into your target audience and make informed decisions that will give your business a significant advantage. Don't leave your success to chance - invest in quantitative market research today.</p>
 				</div>
 			</div>
 
 			<div className="col-lg-4 col-md-6 col-sm-6">
 				<div className="service-item mb-5">
 					<i className="ti-layers"></i>
-					<h4 className="mb-3">Interface Design.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<h4 className="mb-3">Qualitative Research </h4>
+					<p>Social scientists use qualitative methods like in-depth interviews and observation to understand individual behavior and relationships.</p>
 				</div>
 			</div>
 
 			<div className="col-lg-4 col-md-6 col-sm-6">
 				<div className="service-item mb-5">
 					<i className="ti-bar-chart"></i>
-					<h4 className="mb-3">Business Consulting.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<h4 className="mb-3">Data Processing</h4>
+					<p>Making data easier to understand is crucial. The goal is to convey study outcome.</p>
 				</div>
 			</div>
 
 			<div className="col-lg-4 col-md-6 col-sm-6">
 				<div className="service-item mb-5 mb-lg-0">
 					<i className="ti-vector"></i>
-					<h4 className="mb-3">Branding.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<h4 className="mb-3">Charting and Reporting</h4>
+					<p>We offer customised reports tailored to client templates for tracker studies conducted across multiple platforms.</p>
 				</div>
 			</div>
 
 			<div className="col-lg-4 col-md-6 col-sm-6">
 				<div className="service-item mb-5 mb-lg-0">
 					<i className="ti-android"></i>
-					<h4 className="mb-3">App development.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<h4 className="mb-3">Verbatim and Brand Response coding </h4>
+					<p></p>
 				</div>
 			</div>
 
 			<div className="col-lg-4 col-md-6 col-sm-6">
 				<div className="service-item mb-5 mb-lg-0">
 					<i className="ti-pencil-alt"></i>
-					<h4 className="mb-3">Content creation.</h4>
-					<p>A digital agency isn't here to replace your internal team, we're here to partner</p>
+					<h4 className="mb-3">Questionnaire Building</h4>
+					<p>A well-constructed questionnaire is essential for any research survey. However, building a good survey questionnaire that contains relevant questions is challenging.</p>
 				</div>
 			</div>
 		</div>

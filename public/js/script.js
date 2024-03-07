@@ -95,4 +95,16 @@
 		});
 	}
 
+	function downloadPanelBook(){
+		var subsEmail = $('#subsEmail').val();
+		$.ajax({
+			url:"Ajax.php",
+			type:"POST",
+			data:{action:"downloadPanelBoook",email:subsEmail},
+			success:function(res){
+				
+			}
+		});
+	}
+
 })(jQuery);
