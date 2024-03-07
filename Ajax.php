@@ -8,6 +8,7 @@ $post = $_POST;
 if(isset($post['action'])){
     switch($post['action']){
         case 'downloadPanelBoook':
+            
         break;
         default:
             echo 'function not found.';
@@ -16,3 +17,4 @@ if(isset($post['action'])){
 }else{
     echo 'Action not found.';
 }
+

@@ -71,25 +71,25 @@ export default function Footer() {
         </div>
       </div>
     </footer>
-    <div id="scroll-to-top" class="scroll-to-top">
-        <span class="icon fa fa-angle-up"></span>
+    <div id="scroll-to-top" className="scroll-to-top">
+        <span className="icon fa fa-angle-up"></span>
     </div>
    {/* <!-- Modal --> */}
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">Get Panel Book</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+<div className="modal fade" id="exampleModalCenter" tabIndex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div className="modal-dialog modal-dialog-centered" role="document">
+    <div className="modal-content">
+      <div className="modal-header">
+        <h5 className="modal-title" id="exampleModalLongTitle">Get Panel Book</h5>
+        <button type="button" className="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
-      <div class="modal-body">
-        <input type="email" class="form-control" id="subsEmail"  placeholder='Enter email'/>
+      <div className="modal-body">
+        <input type="email" className="form-control" id="subsEmail"  placeholder='Enter email'/>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" onclick="downloadPanelBook();" class="btn  btn-sm btn-primary">Go</button>
+      <div className="modal-footer">
+        <button type="button" className="btn btn-sm btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" className="downloadPanelBook btn  btn-sm btn-primary">Go</button>
       </div>
     </div>
   </div>

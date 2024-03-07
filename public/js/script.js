@@ -95,8 +95,9 @@
 		});
 	}
 
-	function downloadPanelBook(){
+	$('.downloadPanelBook').click(function(){
 		var subsEmail = $('#subsEmail').val();
+		console.log(subsEmail);
 		$.ajax({
 			url:"Ajax.php",
 			type:"POST",
@@ -105,6 +106,6 @@
 				
 			}
 		});
-	}
+	});
 
 })(jQuery);
